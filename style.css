@@ -5,6 +5,8 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color:rgb(247, 241, 233);
+    margin-top: 0%;
+    padding: 0;
 }
 main{
     display: flex;
@@ -14,6 +16,39 @@ main{
 }
 .container{
     width: 900px;
+}
+/* Heading  */
+.content{
+    background-color: rgb(49, 77, 233);
+    margin-bottom: 20px;
+}
+.header-info{
+    display: flex;
+    margin-left: 10%;
+    height: 530px;
+}
+.heading{
+    font-size: 40px;
+    line-height: 22px;
+    margin-top: 10%;
+    color: #FFFFFF;
+}
+.live-button{
+    background-color: rgba(209, 81, 81, 0.993);
+    padding: 10px 25px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.fa-running{
+    margin-left: 15px;
+}
+.player-image img{
+    width: 500px;
+    height: 450px;
+    margin-left: 35%;
+    
+    margin-top: 10%;
 }
 
 /* Player Card Style*/
