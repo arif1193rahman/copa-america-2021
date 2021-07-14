@@ -1,12 +1,13 @@
 /* Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 /* common style */
 body{
     font-family: 'Poppins', sans-serif;
-    background-color:rgb(247, 241, 233);
+    background-color: #FFFFFF;
     margin-top: 0%;
     padding: 0;
+    overflow-x: hidden;
 }
 main{
     display: flex;
@@ -20,7 +21,7 @@ main{
 /* Heading  */
 .content{
     background-color: rgb(49, 77, 233);
-    margin-bottom: 20px;
+    margin-bottom: 4.5rem;
 }
 .header-info{
     display: flex;
@@ -34,8 +35,8 @@ main{
     color: #FFFFFF;
 }
 .live-button{
-    background-color: rgba(209, 81, 81, 0.993);
-    padding: 10px 25px;
+    background-color: #E02C6D;
+    padding: 10px 24px 10px 24px;
     font-weight: 700;
     font-size: 20px;
     color: #FFFFFF;
@@ -47,8 +48,14 @@ main{
     width: 500px;
     height: 450px;
     margin-left: 35%;
-    
     margin-top: 10%;
+    transition: transform 8s;
+}
+
+.player-image img:hover{
+    /* -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5); */
+    transform: translateX(-100px);
 }
 
 /* Player Card Style*/
@@ -64,6 +71,7 @@ main{
     border: 1px solid #FFFFFF;
     background-color: #FFFFFF;
     border-radius: 5PX;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.308);
 }
 .player-banner img{
     width: 275px;
@@ -72,8 +80,71 @@ main{
 }
 .player-name{
     margin-top: 5px;
+    font-size: 1.7rem;
+    /* font-weight: 700; */
 }
 
 .player-info{
     text-align: center;
+}
+h3{
+    
+    /* font-weight: 700; */
+}
+/* clubs Information */
+.clubs{
+    background-color:rgb(238, 245, 243);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 1rem;
+}
+.logo-heading{
+    margin-left: 20%;
+    margin-top: 30%;
+    
+}
+.clubs-logo{
+ display: flex;
+height: 400px;
+}
+.club-logo img{
+    height: 200px;
+    margin: 1rem;
+    margin-top: 20%;
+    margin-left: 50px;
+}
+.player-list{
+    color: rgb(34, 190, 138);
+}
+/* Social Symbol and Button Section */
+.logo{
+    text-align: center;
+    padding-top: 3rem;
+}
+.logo img{
+    width: 35%;
+}
+nav{
+    text-align: center;
+    margin-top: 1rem;
+}
+.social-symbol{
+    display: flex;
+    margin: 1rem;
+    width: 100%;
+    padding-left: 40%;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    
+}
+a{
+    padding: 1rem;
+    font-size: 1.5rem;
+    /* border-radius: 2px 2px 3px black; */
+}
+.copyright-paragraph{
+    font-size: 1.5rem;
+    font-weight:400;
 }
