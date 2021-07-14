@@ -32,15 +32,15 @@ main{
 }
 .heading{
     font-size: 2vw;
-    line-height: 22px;
+    line-height: 30px;
     margin-top: 2%;
     color: #FFFFFF;
 }
 .live-button{
     background-color: #E02C6D;
-    padding: 10px 24px 10px 24px;
-    font-weight: 700;
-    font-size: 1.5vw;
+    padding: 10px 20px 10px 20px;
+    font-weight: 500;
+    font-size: 1.1vw;
     color: #FFFFFF;
 }
 .fa-running{
