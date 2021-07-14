@@ -28,7 +28,6 @@ main{
     margin-left: 10%;
     height: 580px;
     align-items: center;
-    
 }
 .heading{
     font-size: 2vw;
@@ -161,7 +160,6 @@ a{
         overflow-x: hidden;
     }
     .content{
-        grid-template-columns: repeat(1, 1fr);
     }
     .header-info{
         flex-direction: column;
