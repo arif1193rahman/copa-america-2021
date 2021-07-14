@@ -27,9 +27,11 @@ main{
     display: flex;
     margin-left: 10%;
     height: 530px;
+    align-items: center;
+    
 }
 .heading{
-    font-size: 40px;
+    font-size: 3vw;
     line-height: 22px;
     margin-top: 10%;
     color: #FFFFFF;
@@ -38,7 +40,7 @@ main{
     background-color: #E02C6D;
     padding: 10px 24px 10px 24px;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.5vw;
     color: #FFFFFF;
 }
 .fa-running{
@@ -53,8 +55,6 @@ main{
 }
 
 .player-image img:hover{
-    /* -ms-transform: scale(1.5);
-    -webkit-transform: scale(1.5); */
     transform: translateX(-100px);
 }
 
@@ -147,4 +147,32 @@ a{
 .copyright-paragraph{
     font-size: 1.5rem;
     font-weight:400;
+}
+
+
+
+
+/* media quarry */
+@media only screen and (max-width:688px){
+    .body{
+        overflow-x: hidden;
+    }
+    .content .container{
+        width: 100%;
+    }
+    .heading .player{
+        grid-template-columns: repeat(1);
+    }
+    .player-image img{
+        width: 200px;
+        height: 150px;
+        text-align: center;
+        margin-right: 500px;
+    }
+    .header-info{
+        flex-direction: column;
+        background-color:red;
+        height: 480px;
+    }
+   
 }
