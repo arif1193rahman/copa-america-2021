@@ -153,8 +153,8 @@ a{
 
 
 /* media quarry */
-@media only screen and (max-width:688px){
-    .body{
+/* @media only screen and (max-width:688px){ */
+    /* .body{
         overflow-x: hidden;
     }
     .content .container{
@@ -175,4 +175,4 @@ a{
         height: 480px;
     }
    
-}
+} */
