@@ -26,14 +26,14 @@ main{
 .header-info{
     display: flex;
     margin-left: 10%;
-    height: 530px;
+    height: 580px;
     align-items: center;
     
 }
 .heading{
-    font-size: 3vw;
+    font-size: 2vw;
     line-height: 22px;
-    margin-top: 10%;
+    margin-top: 2%;
     color: #FFFFFF;
 }
 .live-button{
@@ -50,7 +50,7 @@ main{
     width: 500px;
     height: 450px;
     margin-left: 35%;
-    margin-top: 10%;
+    margin-top: 8%;
     transition: transform 8s;
 }
 
@@ -81,16 +81,12 @@ main{
 .player-name{
     margin-top: 5px;
     font-size: 1.7rem;
-    /* font-weight: 700; */
 }
 
 .player-info{
     text-align: center;
 }
-h3{
-    
-    /* font-weight: 700; */
-}
+
 /* clubs Information */
 .clubs{
     background-color:rgb(238, 245, 243);
@@ -113,9 +109,14 @@ height: 400px;
     margin-top: 20%;
     margin-left: 50px;
 }
+
+/* Player field part */
 .player-list{
     color: rgb(34, 190, 138);
+    
 }
+
+
 /* Social Symbol and Button Section */
 .logo{
     text-align: center;
@@ -134,26 +135,27 @@ nav{
     width: 100%;
     padding-left: 40%;
 }
+
+/* footer section  */
 li{
     list-style: none;
     display: inline-block;
-    
 }
 a{
     padding: 1rem;
     font-size: 1.5rem;
-    /* border-radius: 2px 2px 3px black; */
 }
 .copyright-paragraph{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight:400;
+    padding-bottom: 20px;
 }
 
 
 
 
 /* media quarry */
-/* @media only screen and (max-width:688px){ */
+@media only screen and (max-width:688px){ 
     /* .body{
         overflow-x: hidden;
     }
@@ -168,11 +170,11 @@ a{
         height: 150px;
         text-align: center;
         margin-right: 500px;
-    }
+    } */
     .header-info{
         flex-direction: column;
         background-color:red;
         height: 480px;
     }
    
-} */
+} 
