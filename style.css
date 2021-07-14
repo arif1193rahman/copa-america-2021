@@ -156,21 +156,13 @@ a{
 
 /* media quarry */
 @media only screen and (max-width:688px){ 
-    /* .body{
+    
+    body{
         overflow-x: hidden;
     }
-    .content .container{
-        width: 100%;
+    .content{
+        grid-template-columns: repeat(1, 1fr);
     }
-    .heading .player{
-        grid-template-columns: repeat(1);
-    }
-    .player-image img{
-        width: 200px;
-        height: 150px;
-        text-align: center;
-        margin-right: 500px;
-    } */
     .header-info{
         flex-direction: column;
         background-color:red;
